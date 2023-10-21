@@ -10,13 +10,16 @@ const routes = [
         path: '',
         name: 'home',
         component: () => import('@/views/Home.vue'),
-        meta: { transition: 'slide-left' }
       },
       {
         path: '/about',
         name: 'about',
         component: () => import('@/views/About.vue'),
-        meta: { transition: 'slide-left' }
+      },
+      {
+        path: '/portfolio',
+        name: 'portfolio',
+        component: () => import('@/views/Portfolio.vue'),
       },
     ],
   },

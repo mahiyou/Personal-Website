@@ -178,6 +178,7 @@
     .title {
         font-size: 26px;
         margin-top: 20px;
+        color: white;
     }
 
     .content {
