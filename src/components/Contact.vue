@@ -88,5 +88,8 @@ export default defineComponent({
 .v-container.contact-container {
     padding: 40px 50px;
     color: #b4b4b5;
+    @media(max-width: 700px) {
+        padding: 80px 20px;
+    }
 }
 </style>
