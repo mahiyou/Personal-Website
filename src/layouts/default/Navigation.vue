@@ -8,7 +8,7 @@
             <v-list-item link title="Home" :to="{ name: 'home' }" active-color="white"></v-list-item>
             <v-list-item link title="About" :to="{ name: 'about' }"  active-color="white"></v-list-item>
             <v-list-item link title="Portfolio" :to="{ name: 'portfolio' }"  active-color="white"></v-list-item>
-            <v-list-item link title="Contact"></v-list-item>
+            <v-list-item link title="Contact" :to="{ name: 'contact' }"></v-list-item>
         </div>
     </v-navigation-drawer>
 </template>
