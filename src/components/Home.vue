@@ -4,11 +4,12 @@
             <v-col cols="5" class="ma-auto"><v-img src="../assets/pics/me.jpg" class="img mr-5"></v-img></v-col>
             <v-col cols="7" class="ma-auto">
                 <p class="name">Maedeh Yousefi</p>
-                <p>I am a Front end develoaper.</p>
-                <p>I create beautiful and usefule products and try to help users use websites easily and have an enjoyable
-                    experience.</p>
-                <v-btn variant="text" icon="mdi-instagram"></v-btn>
+                <p>I am a Front-End develoaper.</p>
+                <p>I create beautiful and usefule products and try to help users by building products with a delightful user experience.</p>
+                <v-btn variant="text" href="https://github.com/mahiyou" icon="mdi-github"></v-btn>
                 <v-btn variant="text" icon="mdi-linkedin"></v-btn>
+                <v-btn variant="text" icon="mdi-gmail"></v-btn>  
+                <v-btn variant="text" icon="mdi-instagram"></v-btn>  
             </v-col>
         </v-row>
     </v-container>

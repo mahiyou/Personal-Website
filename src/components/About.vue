@@ -3,12 +3,12 @@
         <div class="page-title">About me</div>
         <v-img src="../assets/pics/me2.jpg" height="500px" class="img mr-5"></v-img>
         <p class="title">Maedeh Yousefi</p>
-        <p class="sub-title">Front End Developer</p>
+        <p class="sub-title">Front-End Developer</p>
         <v-divider :thickness="1.5" class="my-5"></v-divider>
         <div class="content">
             Hi, welcome to my personal website.<br />
             I graduated in software engineering with a bachelor’s degree in 2020.<br />
-            After graduation I tried different fields and finaly decided to work as a frontend developer.<br />
+            After graduation I tried different fields and finaly decided to work as a front-end developer.<br />
             My priority in every project is customer convenience in using the user interface, and after that beauty and
             creativity is important.
         </div>
@@ -19,11 +19,7 @@
                     <tbody>
                         <tr>
                             <td class="font-weight-bold text-white">Birthday:</td>
-                            <td>11.05.1998</td>
-                        </tr>
-                        <tr>
-                            <td class="font-weight-bold text-white">Age:</td>
-                            <td>26</td>
+                            <td>1998</td>
                         </tr>
                         <tr>
                             <td class="font-weight-bold text-white">Email:</td>
@@ -46,10 +42,6 @@
                         <tr>
                             <td class="font-weight-bold text-white">Deegree:</td>
                             <td>Bachelor</td>
-                        </tr>
-                        <tr>
-                            <td class="font-weight-bold text-white">Interest:</td>
-                            <td>Cooking and baking</td>
                         </tr>
                         <tr>
                             <td class="font-weight-bold text-white">Freelance:</td>
@@ -84,10 +76,10 @@
                 <v-progress-linear model-value="70" :height="3"></v-progress-linear>
                 <v-row class="mt-5">
                     <v-col>
-                        <div class="text-white">Java Script</div>
+                        <div class="text-white">React</div>
                     </v-col>
                     <v-col>
-                        <div class="text-right">50%</div>
+                        <div class="text-right">70%</div>
                     </v-col>
                 </v-row>
                 <v-progress-linear model-value="50" :height="3"></v-progress-linear>
@@ -95,10 +87,10 @@
             <v-col class="pl-10">
                 <v-row class="mt-5">
                     <v-col>
-                        <div class="text-white">React</div>
+                        <div class="text-white">JavaScript</div>
                     </v-col>
                     <v-col>
-                        <div class="text-right">70%</div>
+                        <div class="text-right">50%</div>
                     </v-col>
                 </v-row>
                 <v-progress-linear model-value="70" :height="3" color="#b4b4b5"></v-progress-linear>
@@ -134,8 +126,9 @@
                         <div class="background text-white">2022 - today</div>
                     </v-col>
                     <v-col cols="7" class="my-auto">
-                        <div class="text-white font-weight-bold">Jey Server Company</div>
-                        <div>Front End Developer</div>
+                        <div class="text-white font-weight-bold">Dade Negar Jey Company</div> 
+                        <div>Front-End Developer</div>
+                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://www.jeyserver.com/">site</v-btn>
                     </v-col>
                 </v-row>
                 <v-row class="left-border">
@@ -148,6 +141,7 @@
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Hub company</div>
                         <div>Java programer</div>
+                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://isfahanhub.com/">site</v-btn>
                     </v-col>
                 </v-row>
             </v-col>
@@ -163,6 +157,7 @@
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Azad University Of Najafabad</div>
                         <div>Bachelor degree</div>
+                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://iaun.iau.ir/">site</v-btn>
                     </v-col>
                 </v-row>
             </v-col>
@@ -202,14 +197,19 @@
         height: 20px;
         margin-left: -22px;
     }
-    .left-border{
+
+    .left-border {
         border-left: 1px solid #56585c;
     }
-    .background{
+
+    .background {
         background-color: #414247;
         border-radius: 30px;
         padding: 5px;
         font-size: 14px;
+    }
+    .btn-site{
+        font-size: 10px;
     }
 }
 </style>

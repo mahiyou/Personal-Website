@@ -3,7 +3,7 @@
         <div class="menu-items" justify="center">
             <v-list-item>
                 <p class="menu-title">Maedeh Yousefi</p>
-                <p class="mb-8">Front End Developer</p>
+                <p class="mb-8">Front-End Developer</p>
             </v-list-item>
             <v-list-item link title="Home" :to="{ name: 'home' }" active-color="white"></v-list-item>
             <v-list-item link title="About" :to="{ name: 'about' }"  active-color="white"></v-list-item>
