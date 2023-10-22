@@ -14,6 +14,7 @@
 
     <v-navigation-drawer v-model="drawer" class="nav hidden-lg-and-up" color="#494b50" width="300" justify="center"
         temporary>
+        <div class="text-right"><v-btn variant="text" icon="mdi-close" @click="drawer = false"></v-btn></div>
         <div class="menu-items" justify="center">
             <v-list-item>
                 <p class="menu-title">Maedeh Yousefi</p>

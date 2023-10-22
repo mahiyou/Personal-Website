@@ -1,7 +1,7 @@
 <template>
     <v-container class="about-container">
         <div class="page-title">About me</div>
-        <v-img src="../assets/pics/me2.jpg" height="500px" class="img mr-5"></v-img>
+        <v-img src="../assets/pics/me2.jpg" class="img"></v-img>
         <p class="title">Maedeh Yousefi</p>
         <p class="sub-title">Front-End Developer</p>
         <v-divider :thickness="1.5" class="my-5"></v-divider>
@@ -55,7 +55,7 @@
         <v-divider :thickness="1.5" class="my-10"></v-divider>
         <div class="title text-white">Skills</div>
         <v-row>
-            <v-col class="pr-10">
+            <v-col cols="12" md="6" class="pr-md-10">
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">Html & Css</div>
@@ -84,7 +84,7 @@
                 </v-row>
                 <v-progress-linear model-value="50" :height="3"></v-progress-linear>
             </v-col>
-            <v-col class="pl-10">
+            <v-col cols="12" md="6" class="pl-md-10">
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">JavaScript</div>
@@ -116,14 +116,14 @@
         </v-row>
         <v-divider :thickness="1.5" class="my-15"></v-divider>
         <v-row>
-            <v-col class="pr-6">
+            <v-col cols="12" sm="9" md="6" class="mb-10 pr-md-6 pl-6 pl-md-auto">
                 <div class="title text-white mb-10 mt-0">Work Experience</div>
                 <v-row class="left-border">
                     <v-col cols="1" class="mr-0 my-auto">
                         <div class="circle"></div>
                     </v-col>
                     <v-col cols="4" class="my-auto pl-0" align="center">
-                        <div class="background text-white">2022 - today</div>
+                        <div class="background text-white">2022 - now</div>
                     </v-col>
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Dade Negar Jey Company</div> 
@@ -145,7 +145,7 @@
                     </v-col>
                 </v-row>
             </v-col>
-            <v-col class="pl-6">
+            <v-col cols="12" sm="9" md="6" class="pl-6">
                 <div class="title text-white mb-10 mt-0">Education</div>
                 <v-row class="left-border">
                     <v-col cols="1" class="mr-0 my-auto">
@@ -210,6 +210,9 @@
     }
     .btn-site{
         font-size: 10px;
+    }
+    @media(max-width: 700px) {
+        padding: 80px 20px;
     }
 }
 </style>
