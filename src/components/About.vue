@@ -18,16 +18,16 @@
                 <v-table>
                     <tbody>
                         <tr>
-                            <td class="font-weight-bold text-white">Birthday:</td>
-                            <td>1998</td>
+                            <td class="font-weight-bold text-white pl-0">Birthday:</td>
+                            <td class="pr-0">1998</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white">Email:</td>
-                            <td>you.maede@gmail.com</td>
+                            <td class="font-weight-bold text-white pl-0">Email:</td>
+                            <td class="pr-0">you.maede@gmail.com</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white">github:</td>
-                            <td>github.com/mahiyou</td>
+                            <td class="font-weight-bold text-white pl-0">github:</td>
+                            <td class="pr-0">github.com/mahiyou</td>
                         </tr>
                     </tbody>
                 </v-table>
@@ -36,16 +36,16 @@
                 <v-table>
                     <tbody>
                         <tr>
-                            <td class="font-weight-bold text-white">Major:</td>
-                            <td>Software Engineering</td>
+                            <td class="font-weight-bold text-white pl-0">Major:</td>
+                            <td class="pr-0">Software Engineering</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white">Deegree:</td>
-                            <td>Bachelor</td>
+                            <td class="font-weight-bold text-white pl-0">Deegree:</td>
+                            <td class="pr-0">Bachelor</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white">Freelance:</td>
-                            <td>Available</td>
+                            <td class="font-weight-bold text-white pl-0">Freelance:</td>
+                            <td class="pr-0">Available</td>
                         </tr>
                     </tbody>
                 </v-table>

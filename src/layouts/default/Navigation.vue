@@ -5,10 +5,10 @@
                 <p class="menu-title">Maedeh Yousefi</p>
                 <p class="mb-8">Front-End Developer</p>
             </v-list-item>
-            <v-list-item link title="Home" :to="{ name: 'home' }" active-color="white"></v-list-item>
-            <v-list-item link title="About" :to="{ name: 'about' }" active-color="white"></v-list-item>
-            <v-list-item link title="Portfolio" :to="{ name: 'portfolio' }" active-color="white"></v-list-item>
-            <v-list-item link title="Contact" :to="{ name: 'contact' }"></v-list-item>
+            <v-list-item link title="Home" :to="{ name: 'home' }" active-class="active-class"></v-list-item>
+            <v-list-item link title="About" :to="{ name: 'about' }" active-class="active-class"></v-list-item>
+            <v-list-item link title="Portfolio" :to="{ name: 'portfolio' }" active-class="active-class"></v-list-item>
+            <v-list-item link title="Contact" :to="{ name: 'contact' }" active-class="active-class"></v-list-item>
         </div>
     </v-navigation-drawer>
 
@@ -20,10 +20,10 @@
                 <p class="menu-title">Maedeh Yousefi</p>
                 <p class="mb-8">Front-End Developer</p>
             </v-list-item>
-            <v-list-item link title="Home" :to="{ name: 'home' }" active-color="white"></v-list-item>
-            <v-list-item link title="About" :to="{ name: 'about' }" active-color="white"></v-list-item>
-            <v-list-item link title="Portfolio" :to="{ name: 'portfolio' }" active-color="white"></v-list-item>
-            <v-list-item link title="Contact" :to="{ name: 'contact' }"></v-list-item>
+            <v-list-item link title="Home" :to="{ name: 'home' }" active-clas="active-class"></v-list-item>
+            <v-list-item link title="About" :to="{ name: 'about' }" active-class="active-class"></v-list-item>
+            <v-list-item link title="Portfolio" :to="{ name: 'portfolio' }" active-class="active-class"></v-list-item>
+            <v-list-item link title="Contact" :to="{ name: 'contact' }" active-class="active-class"></v-list-item>
         </div>
     </v-navigation-drawer>
     <v-app-bar color="#494b50" :elevation="0" class="hidden-lg-and-up">
@@ -59,6 +59,10 @@ export default defineComponent({
         margin: auto;
         width: 80%;
         margin-top: 40%;
+    }
+
+    .active-class{
+        color: white;
     }
 }
 
