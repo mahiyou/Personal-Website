@@ -8,7 +8,7 @@
         <div class="content">
             Hi, welcome to my personal website.<br />
             I graduated in software engineering with a bachelor’s degree in 2020.<br />
-            After graduation I tried different fields and finaly decided to work as a front-end developer.<br />
+            After graduation I experienced different aspects of IT industry and finally decided to work as a front-end developer.<br />
             My priority in every project is customer convenience in using the user interface, and after that beauty and
             creativity is important.
         </div>
@@ -82,7 +82,7 @@
                         <div class="text-right">70%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="50" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="70" :height="3"></v-progress-linear>
             </v-col>
             <v-col cols="12" md="6" class="pl-md-10">
                 <v-row class="mt-5">
@@ -90,10 +90,10 @@
                         <div class="text-white">JavaScript</div>
                     </v-col>
                     <v-col>
-                        <div class="text-right">50%</div>
+                        <div class="text-right">60%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="70" :height="3" color="#b4b4b5"></v-progress-linear>
+                <v-progress-linear model-value="60" :height="3" color="#b4b4b5"></v-progress-linear>
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">Java</div>
@@ -103,15 +103,31 @@
                     </v-col>
                 </v-row>
                 <v-progress-linear model-value="70" :height="3"></v-progress-linear>
+            </v-col>
+        </v-row>
+        <div class="title text-white mt-15">Languages</div>
+        <v-row>
+            <v-col cols="12" md="6" class="pr-md-10">
                 <v-row class="mt-5">
                     <v-col>
-                        <div class="text-white">English Language</div>
+                        <div class="text-white">English</div>
                     </v-col>
                     <v-col>
                         <div class="text-right">80%</div>
                     </v-col>
                 </v-row>
                 <v-progress-linear model-value="80" :height="3"></v-progress-linear>
+            </v-col>
+            <v-col cols="12" md="6" class="pl-md-10">
+                <v-row class="mt-5">
+                    <v-col>
+                        <div class="text-white">Farsi</div>
+                    </v-col>
+                    <v-col>
+                        <div class="text-right">100%</div>
+                    </v-col>
+                </v-row>
+                <v-progress-linear model-value="100" :height="3" color="#b4b4b5"></v-progress-linear>
             </v-col>
         </v-row>
         <v-divider :thickness="1.5" class="my-15"></v-divider>
@@ -128,7 +144,8 @@
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Dade Negar Jey Company</div> 
                         <div>Front-End Developer</div>
-                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://www.jeyserver.com/">site</v-btn>
+                        <div>(JavaScript, React, Vue, ...)</div>
+                        <v-btn variant="outlined" height="24px" width="100px" class="btn-site" href="https://www.jeyserver.com/">website</v-btn>
                     </v-col>
                 </v-row>
                 <v-row class="left-border">
@@ -140,8 +157,9 @@
                     </v-col>
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Hub company</div>
-                        <div>Java programer</div>
-                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://isfahanhub.com/">site</v-btn>
+                        <div>Android Developer</div>
+                        <div>(Java)</div>
+                        <v-btn variant="outlined" height="24px"  width="100px" class="btn-site" href="https://isfahanhub.com/">website</v-btn>
                     </v-col>
                 </v-row>
             </v-col>
@@ -156,8 +174,23 @@
                     </v-col>
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Azad University Of Najafabad</div>
-                        <div>Bachelor degree</div>
-                        <v-btn variant="outlined" height="24px" class="btn-site" href="https://iaun.iau.ir/">site</v-btn>
+                        <div>Bachelor degree In Software Engineering </div>
+                        <v-btn variant="outlined" height="24px" width="100px" class="btn-site mr-3" href="https://iaun.iau.ir/">website</v-btn>
+                        <v-btn variant="outlined" height="24px" width="100px" class="btn-site">certificate</v-btn>
+                    </v-col>
+                </v-row>
+                <v-row class="left-border">
+                    <v-col cols="1" class="mr-0 my-auto">
+                        <div class="circle"></div>
+                    </v-col>
+                    <v-col cols="4" class="my-auto pl-0" align="center">
+                        <div class="background text-white">2012 - 2016</div>
+                    </v-col>
+                    <v-col cols="7" class="my-auto">
+                        <div class="text-white font-weight-bold">Farzanagan High School</div>
+                        <div class="text-white">(School for Brilliant Talents)</div>
+                        <div>Mathematics Diploma</div>
+                        <v-btn variant="outlined" height="24px" width="100px" class="btn-site">certificate</v-btn>
                     </v-col>
                 </v-row>
             </v-col>

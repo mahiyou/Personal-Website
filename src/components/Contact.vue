@@ -19,7 +19,7 @@
         </v-form>
     </v-container>
 </template>
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -31,27 +31,27 @@ export default defineComponent({
             email: "",
             comment: "",
             nameRules: [
-                (value) => {
+                (value: string) => {
                     if (value) return true;
                     return "You must enter your name.";
                 },
-                (value) => {
+                (value: string) => {
                     if (value?.length > 1) return true;
                     return "Name needs to be at least 2 characters.";
                 },
             ],
             EmailRules: [
-                (value) => {
+                (value:string) => {
                     if (value) return true;
                     return "You must enter your email.";
                 },
-                (value) => {
+                (value:string) => {
                     if ((/^[a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(value)) ) return true;
                     return "Must be a valid e-mail.";
                 },
             ],
             commentRules: [
-                (value) => {
+                (value:string) => {
                     if (value) return true;
                     return "You must enter your maessage.";
                 },
@@ -86,7 +86,7 @@ export default defineComponent({
 </script>
 <style lang="scss">
 .v-container.contact-container {
-    padding: 0px 50px;
+    padding: 80px 50px;
     color: #b4b4b5;
     @media(max-width: 700px) {
         padding: 80px 20px;

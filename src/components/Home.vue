@@ -6,7 +6,7 @@
             <v-col cols="12" md="7" class="ma-auto text-md-left text-center">
                 <p class="name">Maedeh Yousefi</p>
                 <div class="my-md-1 my-5">
-                    <p>I am a Front-End develoaper.</p>
+                    <p>I am a Front-End developer.</p>
                     <p>I create beautiful and usefule products and try to help users by building products with a delightful
                         user
                         experience.</p>
