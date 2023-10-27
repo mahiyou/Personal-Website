@@ -14,7 +14,7 @@
                     - Find suitable domain for specific purposes.<br />
                     - Set personal configuration for ordered domain.<br />
                     <v-btn class="mt-5 mr-3" variant="outlined" href="https://github.com/mahiyou/jey-domain-vuetify" width="170px"><v-icon class="mr-2">mdi-github</v-icon>source code</v-btn>
-                    <v-btn class="mt-5" variant="outlined"><v-icon class="mr-2" width="170px">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
+                    <v-btn class="mt-5" variant="outlined" width="170px" href="http://jeydomain.mahiyou.net"><v-icon class="mr-2" >mdi-view-dashboard-outline</v-icon>live preview</v-btn>
                 </div>
             </v-col>
         </v-row>
@@ -30,7 +30,7 @@
                     - curency converter.<br />
                     - getting export from data for other sites.<br />
                     <v-btn class="mt-5 mr-3" variant="outlined" href="https://github.com/mahiyou/bonbaz-react" width="170px"><v-icon class="mr-2">mdi-github</v-icon>source code</v-btn>
-                    <v-btn class="mt-5" variant="outlined"><v-icon class="mr-2" width="170px">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
+                    <v-btn class="mt-5" variant="outlined" width="170px" href="http://bonbaz.mahiyou.net"><v-icon class="mr-2">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
                 </div>
             </v-col>
         </v-row>
@@ -44,7 +44,7 @@
                     - This project is some modals and is usefull and easy to use for every site<br />
                     - In these forms, server error and validation error are handled and an appropriate message is shown to user.<br />
                     <v-btn class="mt-5 mr-3" variant="outlined" href="https://github.com/mahiyou/user-validation" width="170px"><v-icon class="mr-2">mdi-github</v-icon>source code</v-btn>
-                    <v-btn class="mt-5" variant="outlined"><v-icon class="mr-2" width="170px">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
+                    <v-btn class="mt-5" variant="outlined" width="170px" href="http://uservalidation.mahiyou.net"><v-icon class="mr-2">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
                 </div>
             </v-col>
         </v-row>
@@ -61,7 +61,7 @@
                     - Several readers for each surah.<br />
                     - Ability to search.<br />
                     <v-btn class="mt-5 mr-3" variant="outlined" href="https://github.com/mahiyou/takvir-vuetify" width="170px"><v-icon class="mr-2">mdi-github</v-icon>source code</v-btn>
-                    <v-btn class="mt-5" variant="outlined"><v-icon class="mr-2" width="170px">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
+                    <v-btn class="mt-5" variant="outlined" width="170px" href="http://takvir.mahiyou.net"><v-icon class="mr-2">mdi-view-dashboard-outline</v-icon>live preview</v-btn>
                 </div>
             </v-col>
         </v-row>
