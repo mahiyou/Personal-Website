@@ -1,6 +1,7 @@
 <template>
     <v-container class="contact-container">
         <div class="page-title">Get In Touch</div>
+        <div class="mb-12">You can contact me easily through the form below:</div>
         <v-form @submit.prevent="onSubmit" v-model="valid">
             <div class="mb-4">
                 <v-text-field variant="outlined" class="text my-3" placeholder="Name" v-model="name" :rules="nameRules"
@@ -67,29 +68,16 @@ export default defineComponent({
             setTimeout(() => {
                 this.loading = false;
             }, 2000);
-            // try {
-            // const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/contact-us?ajax=1`, {
-            //     method: "POST",
-            //     body: JSON.stringify({
-            //         name: this.name,
-            //         email: this.email,
-            //         comment: this.comment,
-            //     }),
-            // });
-            // } catch (e) {
-            // } finally {
-            //     this.loading = false;
-            // }
         },
     },
 });
 </script>
 <style lang="scss">
 .v-container.contact-container {
-    padding: 80px 50px;
+    padding: 20px 50px;
     color: #b4b4b5;
-    @media(max-width: 700px) {
-        padding: 80px 20px;
+    @media(max-width: 1280px) {
+        padding: 20px 20px;
     }
 }
 </style>

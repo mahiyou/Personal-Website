@@ -18,16 +18,16 @@
                 <v-table>
                     <tbody>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">Birthday:</td>
-                            <td class="pr-0">1998</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-2">mdi-cake-variant</v-icon>Birthday:</td>
+                            <td class="pr-0 text-white font-weight-bold">1998</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">Email:</td>
-                            <td class="pr-0">you.maede@gmail.com</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-2">mdi-email-outline</v-icon>Email:</td>
+                            <td class="pr-0 text-white font-weight-bold"><a href="/contact" class="text-white text-decoration-none">you.maede@gmail.com</a></td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">github:</td>
-                            <td class="pr-0">github.com/mahiyou</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-2">mdi-github</v-icon>github:</td>
+                            <td class="pr-0 text-white font-weight-bold"><a href="https://github.com/mahiyou" class="text-white text-decoration-none">github.com/mahiyou</a></td>
                         </tr>
                     </tbody>
                 </v-table>
@@ -36,16 +36,16 @@
                 <v-table>
                     <tbody>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">Major:</td>
-                            <td class="pr-0">Software Engineering</td>
+                            <td class="font-weight-bol pl-0"><v-icon class="mr-2 mb-2"> mdi-book-open-page-variant-outline</v-icon>Major:</td>
+                            <td class="pr-0 text-white font-weight-bold">Software Engineering</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">Deegree:</td>
-                            <td class="pr-0">Bachelor</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-2">mdi-account-school</v-icon>Deegree:</td>
+                            <td class="pr-0 text-white font-weight-bold">Bachelor</td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold text-white pl-0">Freelance:</td>
-                            <td class="pr-0">Available</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-2">mdi-laptop</v-icon>Freelance:</td>
+                            <td class="pr-0 text-white font-weight-bold">Available</td>
                         </tr>
                     </tbody>
                 </v-table>
@@ -64,7 +64,7 @@
                         <div class="text-right">100%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="100" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="100" color="#00FFFF" :height="3"></v-progress-linear>
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">Vue</div>
@@ -73,7 +73,7 @@
                         <div class="text-right">70%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="70" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="70" color="#7cfefe" :height="3"></v-progress-linear>
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">React</div>
@@ -82,7 +82,7 @@
                         <div class="text-right">70%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="70" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="70" color="#7cfefe" :height="3"></v-progress-linear>
             </v-col>
             <v-col cols="12" md="6" class="pl-md-10">
                 <v-row class="mt-5">
@@ -93,7 +93,7 @@
                         <div class="text-right">60%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="60" :height="3" color="#b4b4b5"></v-progress-linear>
+                <v-progress-linear model-value="60" :height="3" color="#bdffff"></v-progress-linear>
                 <v-row class="mt-5">
                     <v-col>
                         <div class="text-white">Java</div>
@@ -102,7 +102,7 @@
                         <div class="text-right">70%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="70" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="70" color="#7cfefe" :height="3"></v-progress-linear>
             </v-col>
         </v-row>
         <div class="title text-white mt-15">Languages</div>
@@ -116,7 +116,7 @@
                         <div class="text-right">80%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="80" :height="3"></v-progress-linear>
+                <v-progress-linear model-value="80" color="#5bffff" :height="3"></v-progress-linear>
             </v-col>
             <v-col cols="12" md="6" class="pl-md-10">
                 <v-row class="mt-5">
@@ -127,7 +127,7 @@
                         <div class="text-right">100%</div>
                     </v-col>
                 </v-row>
-                <v-progress-linear model-value="100" :height="3" color="#b4b4b5"></v-progress-linear>
+                <v-progress-linear model-value="100" :height="3" color="#00FFFF"></v-progress-linear>
             </v-col>
         </v-row>
         <v-divider :thickness="1.5" class="my-15"></v-divider>
@@ -175,7 +175,6 @@
                     <v-col cols="7" class="my-auto">
                         <div class="text-white font-weight-bold">Azad University Of Najafabad</div>
                         <div>Bachelor degree In Software Engineering </div>
-                        <v-btn variant="outlined" height="24px" width="100px" class="btn-site mr-3" href="https://iaun.iau.ir/">website</v-btn>
                         <v-btn variant="outlined" height="24px" width="100px" class="btn-site">certificate</v-btn>
                     </v-col>
                 </v-row>
@@ -199,7 +198,7 @@
 </template>
 <style lang="scss">
 .v-container.about-container {
-    padding: 80px 50px;
+    padding: 20px 50px;
     line-height: 30px;
     color: #b4b4b5;
 
@@ -245,7 +244,8 @@
         font-size: 10px;
     }
     @media(max-width: 700px) {
-        padding: 80px 20px;
+        padding: 20px 20px;
+        color: #7cfefe;
     }
 }
 </style>

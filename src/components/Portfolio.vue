@@ -1,7 +1,7 @@
 <template>
     <v-container class="portfolio-container">
         <div class="page-title">Portfolio</div>
-        <div class="mb-15">You can see some of my recent projects here:</div>
+        <div class="mb-12">You can see some of my recent projects here:</div>
         <v-row class="border-project">
             <v-col cols="12" md="5"> <v-img src="../assets/pics/jeydomain.jpg" class="mx-auto" max-height="300px" width="300px" @click="overlayDomain = !overlayDomain"></v-img></v-col>
             <v-overlay v-model="overlayDomain" class="align-center justify-center"><v-img src="../assets/pics/jeydomain-com.jpg"  height="600" width="600" @click="overlayDomain = !overlayDomain"></v-img></v-overlay>
@@ -19,7 +19,7 @@
             </v-col>
         </v-row>
         <v-row class="border-project">
-            <v-col cols="12" md="5"> <v-img src="../assets/pics/bonbaz.jpg" height="300px" width="300px" @click="overlayBonbaz = !overlayBonbaz"></v-img></v-col>
+            <v-col cols="12" md="5"> <v-img src="../assets/pics/bonbaz.jpg" class="mx-auto" max-height="300px" width="300px" @click="overlayBonbaz = !overlayBonbaz"></v-img></v-col>
             <v-overlay v-model="overlayBonbaz" class="align-center justify-center"><v-img src="../assets/pics/bonbaz-com.jpg"  height="600" width="600" @click="overlayBonbaz = !overlayBonbaz"></v-img></v-overlay>
             <v-col cols="12" md="7">
                 <div>
@@ -35,7 +35,7 @@
             </v-col>
         </v-row>
         <v-row class="border-project">
-            <v-col cols="12" md="5"> <v-img src="../assets/pics/validation.jpg" height="300px" width="300px" @click="overlayValidation = !overlayValidation"></v-img></v-col>
+            <v-col cols="12" md="5"> <v-img src="../assets/pics/validation.jpg" class="mx-auto" max-height="300px" width="300px" @click="overlayValidation = !overlayValidation"></v-img></v-col>
             <v-overlay v-model="overlayValidation" class="align-center justify-center"><v-img src="../assets/pics/validation-com.jpg"  height="600" width="600" @click="overlayValidation = !overlayValidation"></v-img></v-overlay>
             <v-col cols="12" md="7">
                 <div>
@@ -49,7 +49,7 @@
             </v-col>
         </v-row>
         <v-row class="border-project">
-            <v-col cols="12" md="5"> <v-img src="../assets/pics/takvir.jpg" height="300px" width="300px" @click="overlayTakvir = !overlayTakvir"></v-img></v-col>
+            <v-col cols="12" md="5"> <v-img src="../assets/pics/takvir.jpg" class="mx-auto" max-height="300px" width="300px" @click="overlayTakvir = !overlayTakvir"></v-img></v-col>
             <v-overlay v-model="overlayTakvir" class="align-center justify-center"><v-img src="../assets/pics/takvir-com.jpg"  height="600" width="600" @click="overlayTakvir = !overlayTakvir"></v-img></v-overlay>
             <v-col cols="12" md="7">
                 <div>
@@ -81,7 +81,7 @@ export default defineComponent({
 </script>
 <style lang="scss">
 .v-container.portfolio-container {
-    padding: 80px 50px;
+    padding: 20px 50px;
     color: #b4b4b5;
     line-height: 30px;
     $overlay-opacity: 0.8;
@@ -93,7 +93,7 @@ export default defineComponent({
         justify-content: end;
     }
     @media(max-width: 700px) {
-        padding: 80px 20px;
+        padding: 20px 20px;
     }
 }
 </style>

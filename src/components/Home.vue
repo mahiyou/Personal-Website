@@ -11,10 +11,9 @@
                         user
                         experience.</p>
                 </div>
+                <v-btn variant="text" icon="mdi-linkedin" href="https://www.linkedin.com/in/mahiyou"></v-btn>
                 <v-btn variant="text" href="https://github.com/mahiyou" icon="mdi-github"></v-btn>
-                <v-btn variant="text" icon="mdi-linkedin"></v-btn>
-                <v-btn variant="text" icon="mdi-gmail"></v-btn>
-                <v-btn variant="text" icon="mdi-instagram"></v-btn>
+                <v-btn variant="text" href="/contact" icon="mdi-email-outline"></v-btn>
             </v-col>
         </v-row>
     </v-container>

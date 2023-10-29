@@ -20,7 +20,7 @@
 
 .slide-enter-active,
 .slide-leave-active {
-  transition: opacity 0.9s, transform 0.9s;
+  transition: opacity 1s, transform 1s;
 }
 
 .slide-enter-from,
