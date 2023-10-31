@@ -16,23 +16,23 @@
         </div>
         <v-divider :thickness="2" class="my-10"></v-divider>
         <v-row>
-            <v-col cols="6">
-                <v-table>
+            <v-col md="6" cols="12">
+                <v-table class="contact-info">
                     <tbody>
                         <tr>
-                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-1">mdi-email-outline</v-icon>Email:
+                            <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-email-outline</v-icon>Email:
                             </td>
                             <td class="pr-0 font-weight-bold"><a href="/contact"
                                     class="text-white text-decoration-none">me@mahiyou.net</a></td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-1">mdi-github</v-icon>Github:</td>
+                            <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-github</v-icon>Github:</td>
                             <td class="pr-0 font-weight-bold"><a href="https://github.com/mahiyou"
                                     class="text-white text-decoration-none">github.com/mahiyou</a></td>
                         </tr>
                         <tr>
-                            <td class="font-weight-bold pl-0"><v-icon class="mr-2 mb-1">mdi-linkedin</v-icon>LinkedIn:</td>
-                            <td class="pr-0 font-weight-bold"><a href="linkedin.com/in/mahiyou"
+                            <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-linkedin</v-icon>LinkedIn:</td>
+                            <td class="pr-0 font-weight-bold"><a href="https://linkedin.com/in/mahiyou"
                                     class="text-white text-decoration-none">linkedin.com/in/mahiyou</a></td>
                         </tr>
                     </tbody>
@@ -45,100 +45,69 @@
             <v-col cols="12" class="mb-10 pr-md-6 pl-6 pl-md-auto">
                 <div class="title mb-10 mt-0">Work Experience</div>
                 <v-row class="left-border">
-                    <v-col cols="1" class="mr-0 my-auto">
+                    <v-col cols="1" class="mr-0 mt-1">
                         <div class="circle"></div>
                     </v-col>
-                    <v-col cols="2" class="my-auto pl-0" align="center">
-                        <div class="background">2022 - now</div>
-                    </v-col>
-                    <v-col cols="4" class="my-auto" align="center">
-                        <div class="font-weight-bold">Front-End Developer</div>
-                    </v-col>
-                    <v-col cols="5" class="my-auto">
-                        <div>Dade Negar Jey Company</div>
-                    </v-col>
-                </v-row>
-                <v-row class="left-border">
-                    <v-col cols="11" offset="1">
-                        <ul>
+                    <v-col cols="11">
+                        <h2 class="mb-2">Front-End Developer</h2>
+                        <span class="font-weight-bold">Dade Negar Jey Company</span>
+                        <span class="background">2022 - now</span>
+                        <ul class="my-2">
                             <li>Converted graphic designs to code and developing front end of new sites and new projects.
                             </li>
                             <li>Fixed front-end buges and errors in old projects.</li>
                             <li>Learned several useful frameworks and libraries of front-end</li>
                         </ul>
-                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-6"
-                            href="https://www.jeyserver.com/">website</v-btn>
+                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-3"
+                            href="https://jeyserver.com/">website</v-btn>
                     </v-col>
                 </v-row>
                 <v-row class="left-border pt-8">
-                    <v-col cols="1" class="mr-0 my-auto">
+                    <v-col cols="1" class="mr-0 mt-1">
                         <div class="circle"></div>
                     </v-col>
-                    <v-col cols="2" class="my-auto pl-0" align="center">
-                        <div class="background">2018 - 2019</div>
-                    </v-col>
-                    <v-col cols="4" class="my-auto" align="center">
-                        <div class="font-weight-bold">Android Developer</div>
-                    </v-col>
-                    <v-col cols="5" class="my-auto">
-                        <div>Hub company</div>
-                    </v-col>
-                </v-row>
-                <v-row class="left-border">
-                    <v-col cols="11" offset="1">
-                        <ul>
+                    <v-col cols="11">
+                        <h2 class="mb-2">Android Developer</h2>
+                        <span class="font-weight-bold">Hub company</span>
+                        <span class="background">2018 - 2019</span>
+                        <ul class="my-2">
                             <li>Designed android aplications with java.</li>
                         </ul>
-                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-6"
+                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-3"
                             href="https://isfahanhub.com/">website</v-btn>
                     </v-col>
                 </v-row>
+
             </v-col>
             <v-divider :thickness="2" class="mt-15 mb-10"></v-divider>
             <v-col cols="12" class="pl-6">
                 <div class="title mb-10 mt-0">Education</div>
                 <v-row class="left-border">
-                    <v-col cols="1" class="mr-0 my-auto">
+                    <v-col cols="1" class="mr-0 mt-1">
                         <div class="circle"></div>
                     </v-col>
-                    <v-col cols="2" class="my-auto pl-0" align="center">
-                        <div class="background">2016 - 2020</div>
-                    </v-col>
-                    <v-col cols="4" class="my-auto">
-                        <div class="font-weight-bold">Bachelor degree In Software Engineering </div>
-                    </v-col>
-                    <v-col cols="5">
-                        <div>Azad University</div>
-                    </v-col>
-                </v-row>
-                <v-row class="left-border">
-                    <v-col cols="11" offset="1">
-                        <ul>
+                    <v-col cols="11">
+                        <h2 class="mb-2">Bachelor degree In Software Engineering </h2>
+                        <span class="font-weight-bold">Azad University</span>
+                        <span class="background">2016 - 2020</span>
+                        <ul class="my-2">
                             <li>Designed an android aplication for driving theory training as final project</li>
+                            <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-3">certificate</v-btn>
                         </ul>
-                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-6">certificate</v-btn>
                     </v-col>
                 </v-row>
                 <v-row class="left-border pt-8">
-                    <v-col cols="1" class="mr-0 my-auto">
+                    <v-col cols="1" class="mr-0 mt-1">
                         <div class="circle"></div>
                     </v-col>
-                    <v-col cols="2" class="my-auto pl-0" align="center">
-                        <div class="background">2012 - 2016</div>
-                    </v-col>
-                    <v-col cols="4" class="my-auto">
-                        <div class="font-weight-bold">Mathematics and Physics Diploma</div>
-                    </v-col>
-                    <v-col cols="5">
-                        <div>Farzanagan High School</div>
-                        <div>(School for Brilliant Talents)</div>
+                    <v-col cols="11">
+                        <h2 class="mb-2">Mathematics and Physics Diploma</h2>
+                        <span>Farzanagan High School(School for Brilliant Talents)</span>
+                        <span class="background">2012 - 2016</span><br />
+                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site mt-3">certificate</v-btn>
                     </v-col>
                 </v-row>
-                <v-row class="left-border">
-                    <v-col cols="11" offset="1">
-                        <v-btn variant="outlined" height="27px" width="120px" class="btn-site">certificate</v-btn>
-                    </v-col>
-                </v-row>
+
             </v-col>
         </v-row>
         <v-divider :thickness="2" class="mt-15 mb-10"></v-divider>
@@ -176,11 +145,11 @@
         </div>
         <div class="my-10">
             <h3 class="font-weight-bold my-2">Java</h3>
-            <span class="skill-background">object-Oriented programming</span>
-            <span class="skill-background">polymorphism</span>
-            <span class="skill-background">inheritance</span>
-            <span class="skill-background">interfaces</span>
-            <span class="skill-background">android studio</span>
+            <div class="skill-background">object-Oriented programming</div>
+            <div class="skill-background">polymorphism</div>
+            <div class="skill-background">inheritance</div>
+            <div class="skill-background">interfaces</div>
+            <div class="skill-background">android studio</div>
         </div>
         <div class="my-10">
             <h3 class="font-weight-bold my-2">other skils</h3>
@@ -241,8 +210,11 @@
     .background {
         background-color: #414247;
         border-radius: 30px;
-        padding: 5px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 5px 20px;
         font-size: 14px;
+        white-space: nowrap;
     }
 
     .btn-site {
@@ -253,12 +225,18 @@
     .skill-background {
         border: 1px solid #7cfefe;
         border-radius: 5px;
-        margin: 3px;
-        padding: 7px;
+        margin:5px 3px;
+        padding: 1px 6px;
+        display: inline-block;
+        width: fit-content;
     }
+
 
     @media(max-width: 700px) {
         padding: 20px 20px;
+        .contact-info{
+            font-size: 14px;
+        }
     }
 }
 </style>
