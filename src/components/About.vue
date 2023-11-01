@@ -23,23 +23,24 @@
                             <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-email-outline</v-icon>Email:
                             </td>
                             <td class="pr-0 font-weight-bold"><a href="/contact"
-                                    class="text-white text-decoration-none">me@mahiyou.net</a></td>
+                                    class="text-white text-decoration-none"><v-icon size="sm" class="mr-2">mdi-link-variant</v-icon>me@mahiyou.net</a></td>
                         </tr>
                         <tr>
                             <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-github</v-icon>Github:</td>
                             <td class="pr-0 font-weight-bold"><a href="https://github.com/mahiyou"
-                                    class="text-white text-decoration-none">github.com/mahiyou</a></td>
+                                    class="text-white text-decoration-none"><v-icon size="sm" class="mr-2">mdi-link-variant</v-icon>github.com/mahiyou</a></td>
                         </tr>
                         <tr>
                             <td class="font-weight-bold pl-0"><v-icon class="mb-1 mr-1">mdi-linkedin</v-icon>LinkedIn:</td>
                             <td class="pr-0 font-weight-bold"><a href="https://linkedin.com/in/mahiyou"
-                                    class="text-white text-decoration-none">linkedin.com/in/mahiyou</a></td>
+                                    class="text-white text-decoration-none"><v-icon size="sm" class="mr-2">mdi-link-variant</v-icon>linkedin.com/in/mahiyou</a></td>
                         </tr>
                     </tbody>
                 </v-table>
             </v-col>
         </v-row>
-        <v-btn variant="outlined" class="mt-10">Download CV</v-btn>
+        <v-btn variant="outlined" class="mt-10" href="Maedeh-Yousefi.pdf" download>Download CV</v-btn>
+
         <v-divider :thickness="2" class="my-10"></v-divider>
         <v-row>
             <v-col cols="12" class="mb-10 pr-md-6 pl-6 pl-md-auto">
